@@ -6,4 +6,5 @@ Open3.popen3("sleep 2; ls -l") do |stdout, stderr, status, thread|
     puts "-------"
   end
   #puts "STDOUT: #{stdout}"
+  #Neuer Kommentar vom Remote
 end
