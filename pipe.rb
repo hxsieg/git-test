@@ -5,5 +5,5 @@ Open3.popen3("sleep 2; ls -l") do |stdout, stderr, status, thread|
     puts(line)
     puts "-------"
   end
-  puts "STDOUT: #{stdout}"
+  #puts "STDOUT: #{stdout}"
 end
